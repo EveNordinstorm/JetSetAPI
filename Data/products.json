@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1000,
+        "img1": "Images/tour-group-2.jpg",
+        "img2": "Images/tour-bus.jpg",
+        "img3": "Images/tour-group-1.jpg",
+        "img4": "Images/tour-guide.jpg",
+        "catagory": "Services",
+        "name": "Guided Tour",
+        "description": "Make the most of your holiday by adding on our tour package, available for all of our destinations.",
+        "price": 300
+    },
+    {
+        "id": 1001,
+        "img1": "Images/plane-tickets.jpg",
+        "img2": "Images/plane-sky.jpg",
+        "img3": "Images/airport.jpg",
+        "img4": "Images/plane-window-2.jpg",
+        "catagory": "Services",
+        "name": "Ticket Booker",
+        "description": "Use our service to find you the best deal on flights so all you have to worry about is what you need to pack!",
+        "price": 50
+    }
+]

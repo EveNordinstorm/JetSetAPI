@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2000,
+    "imgUrl": "Images/new-york.jpg",
+    "text": "Visit the iconic culture and landmarks of New York",
+    "label": "City Break"
+  },
+  {
+    "id": 2001,
+    "imgUrl": "Images/italy.jpg",
+    "text": "Take a journey through Italy's rich history, art and cuisine",
+    "label": "Luxury"
+  },
+  {
+    "id": 2002,
+    "imgUrl": "Images/bali.jpg",
+    "text": "Treat yourself in Bali by relaxing on pristine beaches",
+    "label": "Relaxation"
+  },
+  {
+    "id": 2003,
+    "imgUrl": "Images/dubai.jpg",
+    "text": "Explore the landscapes of Dubai from sand dunes to cities",
+    "label": "Adventure"
+  },
+  {
+    "id": 2004,
+    "imgUrl": "Images/africa.jpg",
+    "text": "Have an unforgettable experience encountering the wildlife of Africa",
+    "label": "Adventure"
+  },
+  {
+    "id": 2005,
+    "imgUrl": "Images/cruise.jpg",
+    "text": "Travel Europe in a private cruise",
+    "label": "Cruise"
+  },
+  {
+    "id": 2006,
+    "imgUrl": "Images/iceland.jpg",
+    "text": "Iceland offers an otherworldy escape to it's own unique culture",
+    "label": "Culture"
+  },
+  {
+    "id": 2007,
+    "imgUrl": "Images/greece.jpg",
+    "text": "Visit the timeless beauty of Greece and relax in the Mediterranean sun",
+    "label": "Relaxation"
+  }
+]

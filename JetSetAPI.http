@@ -1,0 +1,6 @@
+@JetSetAPI_HostAddress = http://localhost:5146
+
+GET {{JetSetAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
