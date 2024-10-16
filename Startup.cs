@@ -43,30 +43,27 @@ namespace JetSetAPI
 
             app.UseHttpsRedirection();
 
+            app.UseStaticFiles();
+
             app.UseRouting();
 
             app.UseCors("AllowReactApp");
 
             app.UseAuthorization();
 
-            // Serve static files from wwwroot (both API and frontend build files)
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-                    Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
-                RequestPath = ""
-            });
-
-            // Handle React client-side routing by serving index.html for non-API routes
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
 
-            // Fallback to serve the React app's index.html
-            app.UseEndpoints(endpoints =>
+            app.UseSpa(spa =>
             {
-                endpoints.MapFallbackToFile("index.html");
+                spa.Options.SourcePath = "wwwroot";
+
+                if (env.IsDevelopment())
+                {
+                    spa.UseProxyToSpaDevelopmentServer("http://localhost:3000");
+                }
             });
         }
     }
